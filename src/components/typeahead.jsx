@@ -242,7 +242,7 @@ module.exports = React.createClass({
                                 aria-selected={isSelected}
                                 role='option'
                                 key={index}
-                                onClick={_this.handleOptionClick.bind(_this, index)}
+                                onMouseDown={_this.handleOptionClick.bind(_this, index)}
                                 onMouseOver={_this.handleOptionMouseOver.bind(_this, index)}>
 
                                 <OptionTemplate
